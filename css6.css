@@ -13,57 +13,55 @@ h1 {
 }
 
 #wrapper {
-    position: absolute;
+    position: relative;
     background-color: #FFF;
     width: 50%;
-    height: 70%;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-bottom: 10%;
+    height: 390px;
+    margin: 0 auto;
     border: 2px solid black;
 }
 
 #red {
     background-color: #900;
     position: absolute;
-    width: 35%;
-    height: 35%;
-    margin-top: 35%;
-    margin-left: 15%;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 80px;
 }
 
 #green {
     background-color: #090;
     position: absolute;
-    width: 35%;
-    height: 35%;
-    margin-top: 10%;
-    margin-left: 15%;
+    width: 100px;
+    height: 80px;
+    right: 0px;
+    top: 80px;
 }
 
 #blue {
     background-color: #00F;
     position: absolute;
-    width: 40%;
-    height: 35%;
-    margin-top: 10%;
-    margin-left: 50%;
+    width: 100px;
+    height: 80px;
+    top: 160px;
 }
 
 #purple {
     background-color: #63C;
     position: absolute;
-    width: 40%;
-    height: 35%;
-    margin-top: 35%;
-    margin-left: 50%;
+    width: 100px;
+    height: 80px;
+    top: 240px;
+    right: 0px;
 }
 
 #footer {
     background-color: #666;
     position: absolute;
-    margin-top: 0%;
-    width: 100%;
-    height: 11%;
+    width: 60%;
+    height: 70px;
+    top: 320px;
+    right: 100px;
 }
 
